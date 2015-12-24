@@ -1,0 +1,200 @@
+[
+    {
+        "weapon": "+50 To Attack Rating, +1 Light Radius",
+        "lvl": "11",
+        "name": "El",
+        "etc": "+15 Defense, +1 To Light Radius"
+    },
+    {
+        "weapon": "+75% Damage To Undead, +50 Attack Rating Against Undead",
+        "lvl": "11",
+        "name": "Eld",
+        "etc": "15% Slower Stamina Drain/7% Increased Chance of Blocking(Shields)"
+    },
+    {
+        "weapon": "+2 To Mana After Each Kill",
+        "lvl": "13",
+        "name": "Tir",
+        "etc": "+2 To Mana After Each Kill"
+    },
+    {
+        "weapon": "Knockback",
+        "lvl": "13",
+        "name": "Nef",
+        "etc": "+30 Defense Vs. Missile"
+    },
+    {
+        "weapon": "-25% To Target Defense",
+        "lvl": "15",
+        "name": "Eth",
+        "etc": "Regenerate Mana 15%"
+    },
+    {
+        "weapon": "+9 To Maximum Damage",
+        "lvl": "15",
+        "name": "Ith",
+        "etc": "15% Damage Taken Goes to Mana"
+    },
+    {
+        "weapon": "+75 Poison Damage Over 5 Seconds",
+        "lvl": "17",
+        "name": "Tal",
+        "etc": "Poison Resist 30%/Poison Resist 35%(Shields)"
+    },
+    {
+        "weapon": "Adds 5-30 Fire Damage",
+        "lvl": "19",
+        "name": "Ral",
+        "etc": "Fire Resist 30%/Fire Resist 35%(Shields)"
+    },
+    {
+        "weapon": "Adds 1-50 Lightning Damage",
+        "lvl": "21",
+        "name": "Ort",
+        "etc": "Lightning Resist 30%/Lightning Resist 35%(Shields)"
+    },
+    {
+        "weapon": "Adds 3-14 Cold Damage - 3 Second Duration",
+        "lvl": "23",
+        "name": "Thul",
+        "etc": "Cold Resist 30%/Cold Resist 35%(Shields)"
+    },
+    {
+        "weapon": "7% Life Stolen Per Hit",
+        "lvl": "25",
+        "name": "Amn",
+        "etc": "Attacker Takes Damage of 14"
+    },
+    {
+        "weapon": "+9 To Minimum Damage",
+        "lvl": "27",
+        "name": "Sol",
+        "etc": "Damage Reduced By 7"
+    },
+    {
+        "weapon": "20% Increased Attack Speed",
+        "lvl": "29",
+        "name": "Shael",
+        "etc": "20% Faster Hit Recovery/20% Faster Block Rate(Shields)"
+    },
+    {
+        "weapon": "Hit Causes Monster To Flee 25%",
+        "lvl": "31",
+        "name": "Dol",
+        "etc": "Replenish Life +7"
+    },
+    {
+        "weapon": "Requirements -20%",
+        "lvl": "-",
+        "name": "Hel",
+        "etc": "Requirements -15%"
+    },
+    {
+        "weapon": "+10 To Vitality",
+        "lvl": "35",
+        "name": "Io",
+        "etc": "+10 To Vitality"
+    },
+    {
+        "weapon": "+10 To Energy",
+        "lvl": "37",
+        "name": "Lum",
+        "etc": "+10 To Energy"
+    },
+    {
+        "weapon": "+10 To Dexterity",
+        "lvl": "39",
+        "name": "Ko",
+        "etc": "+10 To Dexterity"
+    },
+    {
+        "weapon": "+10 To Strength",
+        "lvl": "41",
+        "name": "Fal",
+        "etc": "+10 To Strength"
+    },
+    {
+        "weapon": "75% Extra Gold From Monsters",
+        "lvl": "43",
+        "name": "Lem",
+        "etc": "50% Extra Gold From Monsters"
+    },
+    {
+        "weapon": "+75% Damage To Demons, +100 Attack Rating Against Demons",
+        "lvl": "45",
+        "name": "Pul",
+        "etc": "+30% Enhanced Defense"
+    },
+    {
+        "weapon": "25% Chance of Open Wounds",
+        "lvl": "47",
+        "name": "Um",
+        "etc": "All Resistances +15(Armor/Helms) +22(Shields)"
+    },
+    {
+        "weapon": "Prevent Monster Heal",
+        "lvl": "49",
+        "name": "Mal",
+        "etc": "Magic Damage Reduced By 7"
+    },
+    {
+        "weapon": "30% Better Chance of Getting Magic Items",
+        "lvl": "51",
+        "name": "Ist",
+        "etc": "25% Better Chance of Getting Magic Items"
+    },
+    {
+        "weapon": "20% Bonus To Attack Rating",
+        "lvl": "53",
+        "name": "Gul",
+        "etc": "5% To Maximum Poison Resist"
+    },
+    {
+        "weapon": "7% Mana Stolen Per Hit",
+        "lvl": "55",
+        "name": "Vex",
+        "etc": "5% To Maximum Fire Resist"
+    },
+    {
+        "weapon": "+50% Enhanced Damage",
+        "lvl": "57",
+        "name": "Ohm",
+        "etc": "5% To Maximum Cold Resist"
+    },
+    {
+        "weapon": "20% Deadly Strike",
+        "lvl": "59",
+        "name": "Lo",
+        "etc": "5% To Maximum Lightning Resist"
+    },
+    {
+        "weapon": "Hit Blinds Target",
+        "lvl": "61",
+        "name": "Sur",
+        "etc": "Maximum Mana 5%/+50 To Mana (Shields)"
+    },
+    {
+        "weapon": "20% Chance of Crushing Blow",
+        "lvl": "63",
+        "name": "Ber",
+        "etc": "Damage Reduced by 8%"
+    },
+    {
+        "weapon": "Ignore Target's Defense",
+        "lvl": "65",
+        "name": "Jah",
+        "etc": "Increase Maximum Life 5%/+50 Life (Shields)"
+    },
+    {
+        "weapon": "Freeze Target +3",
+        "lvl": "67",
+        "name": "Cham",
+        "etc": "Cannot Be Frozen"
+    },
+    {
+        "weapon": "Indestructible",
+        "lvl": "69",
+        "name": "Zod",
+        "etc": "Indestructible"
+    }
+]

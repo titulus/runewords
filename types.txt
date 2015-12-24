@@ -1,0 +1,18 @@
+shields
+body armor
+helms
+weapons
+	missile weapons
+	-	bows
+	-	crossbows
+	melee weapons
+		axes
+		swords
+		scepters
+		polearms
+		claws
+		staves
+		wand
+		hammers
+		clubs
+		maces

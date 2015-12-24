@@ -1,0 +1,239 @@
+/* Eric Meyer v1.0 - 2008-02-12 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+/* remember to define focus styles! */
+:focus {outline: 0;}
+/* remember to highlight inserts somehow! */
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+/* tables still need 'cellspacing="0"' in the markup */
+table {border-collapse: collapse; border-spacing: 0;}
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+@font-face {
+	font-family: Exocet-normal;
+	src: url(fonts/Exocet-normal.ttf);
+	font-weight: normal;
+}
+@font-face {
+	font-family: Exocet-bold;
+	src: url(fonts/Exocet-bold.ttf);
+	font-weight: bold;
+}
+
+body {
+	background-image: url('images/bg.jpg');
+	font-family: Exocet-normal;
+	color: white;
+}
+
+#filters {
+	text-align: center;
+	padding: 30px;
+}
+#runes {
+	display: inline-block;
+	vertical-align: top;
+	
+	width: 300px;
+	padding: 0;
+	margin: 20px;
+	
+	-moz-column-count: 3; /* Äëÿ Firefox */
+    -moz-column-width: 100px;
+    -moz-column-gap: 0;
+    -webkit-column-count: 3; /* Äëÿ Safari è Chrome */
+    -webkit-column-width: 100px;
+    -webkit-column-gap: 0;
+    column-count: 3;
+    column-width: 100px;
+    column-gap: 0;
+	text-align: left;
+	
+	background-image: url('images/doubleslot.png');
+}
+.rune {
+	display: inline-block;
+	
+	z-index: 10;
+	
+	width: 98px;
+	height: 27px;
+	margin: 1px;
+	
+	cursor: pointer;
+}
+.rune.hover {z-index: 15;}
+.rune > img {
+	float: right;
+	opacity: 0.5;
+}
+.rune > .name {
+	display: block;
+	
+	width: 70px;
+	height: inherit;
+	
+	line-height: 29px;
+	font-size: 16px;
+	text-align: center;
+}
+.rune.ui-selected > .name {color: Goldenrod;}
+.rune.ui-selecting > img, .rune.ui-selected > img, .rune:hover > img {opacity: 1;}
+.rune > .description {
+	display: none;
+	position: absolute;
+	
+	padding: 10px 15px;
+	
+	text-align: center;
+	white-space: nowrap;
+	
+	background-color: rgba(0,0,0,.7);
+}
+.rune.hover > .description {display: block;}
+
+.rune > .description > .name {
+	font-family: Exocet-bold;
+	color: orange;
+	margin-bottom: 16px;
+}
+.rune > .description > .effect > span {
+	display: block;
+	color: gray;
+}
+.rune > .description > .lvl {
+	margin-top: 16px;
+}
+.rune > .description > .lvl > span {
+	color: gray;
+	margin-right: 10px;
+}
+.itemtypes {
+	display: inline-block;
+	vertical-align: top;
+	
+	width: 290px;
+	margin: 20px;
+}
+#types {
+	width: 290px;
+	height: 28px;
+	
+	display: none;
+}
+#types > * {
+	display: inline-block;
+	
+	margin: 0 10px;
+	
+	cursor: pointer;
+}
+#types > .selected {color: Goldenrod;}
+#types > *:hover {color: orange;}
+#items {
+	display: block;
+	vertical-align: top;
+	
+	width: 290px;
+	padding: 1px 0 0 1px;
+	
+	text-align: left;
+		
+	background-image: url('images/slot.png');
+}
+.item {
+	display: inline-block;
+	position: relative;
+	z-index: 10;
+	vertical-align: top;
+}
+.item.hover {z-index: 15;}
+.item.r1 {width: 29px;}
+.item.r2 {width: 58px;}
+.item.c1 {width: 29px;}
+.item.c2 {width: 58px;}
+.item.c3 {width: 87px;}
+.item.c4 {width: 116px;}
+.item > img {
+	cursor: pointer;
+	opacity: 0.5;
+}
+.item.hover > img {opacity: 0.8;}
+.item.ui-selecting > img, .item.ui-selected > img {opacity: 1;}
+.item > .name {
+	display: none;
+}
+.item > .description {
+	display: none;
+	position: absolute;
+	
+	width: 300px;
+	padding: 10px 15px;
+	
+	background-color: rgba(0,0,0,.7);
+}
+.item.hover > .description {display: block;}
+.item > .description > .name {
+	display: block;
+	margin-bottom: 16px;
+	
+	font-size: 16px;
+	text-align: center;
+	font-family: Exocet-bold;
+	
+	color: orange;
+}
+.item > .description > .include {color: LightGreen;}
+.item > .description > .not-include {color: LightCoral;}
+.item > .description > b {
+	color: gray;
+}
+
+#runewords {
+	display: block;
+	margin: 50px;
+	clear: both;
+	text-align:center;
+}
+.runeword {
+	display: none;
+	vertical-align: top;
+	color: white;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	padding: 5px 15px;
+	background-color: rgba(0,0,0,.6);
+	white-space: nowrap;
+	margin: 15px;
+}
+.runeword.show {display: inline-block;}
+.runeword  > .name {
+	font-family: Exocet-bold;
+	color: orange;
+}
+.runeword  > .type {
+	color: gray;
+}
+.runeword  > .compile {
+	color: Goldenrod;
+}
+.runeword  > .socket {
+	color: gray;
+}
+.runeword  > .socket > span {color: white;}
+.runeword  > .effects {
+	margin-top: 16px;
+	color: RoyalBlue;
+}
+
+.ui-selectable-helper {
+	border-color: white;
+}
